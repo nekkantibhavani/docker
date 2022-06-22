@@ -1,0 +1,26 @@
+  docker version
+   13  apt update
+   14  systemctl status docker
+   15  cat /etc/os-release
+   16  docker pull centos
+   17  docker images
+   18  docker images ps -a
+   19  docker run -it centos
+   20  docker ps
+   21  docker ps -a
+   22  docker pull ubuntu
+   23  docker images ls
+   24  docker runit ubuntu
+   25  docker run -it ubuntu
+   26  docker ps
+   27  docker ps -a
+   28  docker run -it ngnix
+   29  docker pull ngnix
+   30  docker run -it ngnix
+   31  docker run--help
+   32  docker ps -a
+   33  vi Dockerfile
+   34  docker build -t ngnixvolume .
+   35  docker images
+   36  docker run -it --name bhavanicontainer ngnixvolume /bin/bash 11  apt install docker.io
+   12  docker version
